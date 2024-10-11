@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Feedback de Produto</title>
+</head>
+<body>
+    <h1>Feedback do Produto</h1>
+    <form>
+        <label for="nomeProduto">Nome do Produto:</label><br>
+        <input type="text" id="nomeProduto" name="nomeProduto" placeholder="Digite o nome do produto"><br><br>
+
+        <label for="avaliacao">Avaliação:</label><br>
+        <select id="avaliacao" name="avaliacao">
+            <option value="5">5 - Excelente</option>
+            <option value="4">4 - Muito bom</option>
+            <option value="3">3 - Bom</option>
+            <option value="2">2 - Regular</option>
+            <option value="1">1 - Ruim</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentários:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe seus comentários sobre o produto"></textarea><br><br>
+
+        <input type="submit" value="Enviar Feedback">
+    </form>
+</body>
+</html>
